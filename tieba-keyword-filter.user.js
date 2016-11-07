@@ -3,7 +3,7 @@
 // @namespace   eight04.blogspot.com
 // @description 依關鍵字摺疊樓層廣告
 // @include     http://tieba.baidu.com/*
-// @version     0.0.0
+// @version     0.1.0
 // @grant       GM_addStyle
 // @grant		GM_registerMenuCommand
 // @grant		GM_getValue
