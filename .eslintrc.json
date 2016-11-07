@@ -1,0 +1,15 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "greasemonkey": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "semi": [
+            "error",
+            "always"
+        ],
+        "no-console": "off"
+    }
+}

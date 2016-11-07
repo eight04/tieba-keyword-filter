@@ -1,0 +1,13 @@
+{
+  "name": "tieba-keyword-filter",
+  "version": "0.0.0",
+  "devDependencies": {
+    "sync-version": "^0.2.0"
+  },
+  "scripts": {
+    "test": "eslint *.js",
+    "preversion": "npm test",
+    "version": "sync-version tieba-keyword-filter.user.js && git add .",
+    "postversion": "git push --follow-tags"
+  }
+}
