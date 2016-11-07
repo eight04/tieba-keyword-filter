@@ -11,5 +11,8 @@
             "always"
         ],
         "no-console": "off"
+    },
+    "globals": {
+        "GM_config": false
     }
 }
