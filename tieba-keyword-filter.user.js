@@ -28,7 +28,7 @@ GM_config.setup(
 
 GM_addStyle(".tkf-hidden{height: 10px; overflow:hidden;} #j_p_postlist > div:not(.l_post):not(#j_p_postlist){display:none;} #thread_list > li:not(.thread_top_list_folder):not(.j_thread_list){display: none;}");
 
-function toggle(e) {
+function toggle() {
 	this.classList.toggle("tkf-hidden");
 }
 
